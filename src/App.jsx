@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import TaskBoard from "./Components/Tasks/TaskBoard";
 
-const App = () => {
+const HomePage = () => {
   return (
     <>
       <Header />
@@ -15,4 +15,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default HomePage;

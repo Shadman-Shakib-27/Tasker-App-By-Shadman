@@ -2,9 +2,9 @@ const SearchTask = () => {
   return (
     <>
       {/* <!-- Search Box --> */}
-      <div className="p-2 flex justify-end">
+      <div className="p-2 flex justify-end ">
         <form>
-          <div className="flex">
+          <div className="flex border border-[rgba(206,206,206,0.12)] bg-[#1D212B] rounded-lg">
             <div className="relative overflow-hidden rounded-lg text-gray-50 md:min-w-[380px] lg:min-w-[440px]">
               <input
                 type="search"
