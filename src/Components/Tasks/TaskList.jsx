@@ -65,13 +65,14 @@ const TaskList = ({ tasks, onEdit, onDelete, onFav }) => {
                   <div className="flex items-center justify-center space-x-3">
                     <button
                       onClick={() => onDelete(task.id)}
-                      className="text-red-500"
+                      className="text-red-500 border-red-500 border rounded-md p-1"
                     >
                       Delete
                     </button>
                     <button
                       onClick={() => onEdit(task)}
-                      className="text-blue-500"
+                      className="text-blue-500 p-1 border-blue-500 border rounded-md
+                      "
                     >
                       Edit
                     </button>

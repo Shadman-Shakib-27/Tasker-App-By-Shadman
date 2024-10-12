@@ -2,9 +2,9 @@
 const TaskAction = ({ onAddClick, onDeleteAll }) => {
   return (
     <>
-      <div className="mb-14 items-center justify-between sm:flex">
+      <div className="mb-14 items-center justify-between text-center md:text-left sm:flex">
         <h2 className="text-2xl font-semibold max-sm:mb-4">Your Tasks</h2>
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center mx-[50px] md:mx-0 space-x-2">
           <button
             onClick={onAddClick}
             className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold"
