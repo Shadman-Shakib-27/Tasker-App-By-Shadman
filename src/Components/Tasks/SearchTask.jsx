@@ -11,14 +11,14 @@ const SearchTask = ({ onSearch }) => {
   return (
     <>
       {/* <!-- Search Box --> */}
-      <div className="p-2 flex justify-end ">
+      <div className="p-2 flex justify-center md:justify-end">
         <form>
           <div className="flex border border-[rgba(206,206,206,0.12)] bg-[#1D212B] rounded-lg">
             <div className="relative overflow-hidden rounded-lg text-gray-50 md:min-w-[380px] lg:min-w-[440px]">
               <input
                 type="search"
                 id="search-dropdown"
-                className="z-20 block w-full bg-gray-800 px-4 py-2 pr-10 focus:outline-none"
+                className="z-20 block w-[100%] bg-gray-800 px-4 py-2 pr-10 focus:outline-none"
                 value={searchTerm}
                 onChange={() => setSearchTerm(event.target.value)}
                 placeholder="Search Task"
